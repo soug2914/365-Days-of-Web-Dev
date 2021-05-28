@@ -1,0 +1,81 @@
+/*------------------------------- 
+Author - Sayantan Sinharay
+Date - 5/28/21 
+---------------------------------*/
+
+/*------------------------------- 
+            CONTRIB LOG
+=================================
+ENTER HERE
+keep the format
+
+---------------------------------*/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	color: #413e3e;
+	font-family: "Mukta", sans-serif;
+	background-color: #c4c4c4;
+}
+header {
+	font-size: 30px;
+	font-family: monospace;
+	margin: 20px;
+}
+h2 {
+	margin-top: -10px;
+	font-size: 0.8em;
+	letter-spacing: -2px;
+}
+div {
+	border-radius: 1em;
+	margin: 20px;
+	width: 50%;
+	font-size: 1.2em;
+	padding: 20px;
+	background-color: #e3e3e3;
+}
+input[type="radio"] {
+	margin: 10px;
+}
+#Student {
+	margin-left: 0px;
+}
+form {
+	margin: 15px;
+}
+input[type="text"] {
+	background-color: #ededed;
+	padding: 5px 40px 5px 10px;
+	margin: 10px;
+	border: 5px solid transparent;
+	border-radius: 40px;
+}
+input[type="text"]:focus {
+	outline: none;
+}
+input[type="text"]::placeholder {
+	opacity: 0.5;
+}
+button {
+	color: aliceblue;
+	font-size: 20px;
+	font-weight: bold;
+	background-color: #00affa;
+	margin-top: 40px;
+	padding: 10px 20px;
+	border: 1px solid;
+	border-radius: 25px;
+}
+button:hover {
+	background-color: #0084bd;
+}
+.label-text {
+	font-weight: 100;
+	font-size: 1.2em;
+}
